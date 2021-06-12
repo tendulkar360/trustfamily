@@ -1,0 +1,232 @@
+/*===================================
+    Common CSS Start
+====================================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
+}
+
+/*===================================
+    Common CSS End
+====================================*/
+
+/*===================================
+    Header CSS Start
+====================================*/
+
+header {
+    width: 100%;
+    background: rgb(141, 138, 138);
+}
+
+header .max_width {
+    width: 90%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .left {
+    display: flex;
+}
+
+header .left .phone,
+header .left .email {
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+header .left .phone h4,
+header .left .email h4 {
+    margin-left: 10px;
+}
+
+header .right i {
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 0;
+    cursor: pointer;
+}
+
+header h4,
+header i {
+    color: white;
+}
+
+header .left i {
+    color: black;
+}
+
+.fa-facebook-f:hover {
+    color: #3b5999;
+}
+
+.fa-instagram:hover {
+    color: #c32aa3;
+}
+
+.fa-linkedin-in:hover {
+    color: #0077B5;
+}
+
+.fa-twitter:hover {
+    color: #1da1f2;
+}
+
+.fa-behance:hover {
+    color: #1666F7;
+}
+
+/*===================================
+    Header CSS End
+====================================*/
+
+
+
+/*===================================
+    Navigation CSS Start
+====================================*/
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: crimson;
+}
+
+nav ul {
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+
+.active.active {
+    color: black;
+}
+
+.fa-bars {
+    position: absolute;
+    right: 20px;
+    display: none;
+    color: white;
+    cursor: pointer;
+}
+
+.fa-times {
+    display: none;
+    color: white;
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    cursor: pointer;
+}
+
+.fa-times:hover {
+    color: crimson;
+}
+
+.fa-bars:hover {
+    color: black;
+}
+
+/*===================================
+    Navigation CSS End
+====================================*/
+
+
+
+/*===================================
+    Main CSS Start
+====================================*/
+
+main {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/herobg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/*===================================
+    Hero CSS Start
+====================================*/
+
+.hero {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    text-align: center;
+    width: 100%;
+}
+
+.hero h1 {
+    font-size: 65px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    letter-spacing: 5px;
+    display: block;
+    color: white;
+}
+
+.hero h6 {
+    font-size: 22px;
+    font-weight: 400;
+    color: #777;
+    padding-bottom: 20px;
+}
+
+.hero a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: 2px solid crimson;
+    border-radius: 10px;
+    background-color: crimson;
+    color: white;
+}
+
+.hero a:hover {
+
+    background: transparent;
+    color: crimson;
+}
+
+
+/*===================================
+    Hero CSS End
+====================================*/
+
+
+/*===================================
+    Main CSS End
+====================================*/
