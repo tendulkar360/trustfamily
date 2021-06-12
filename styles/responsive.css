@@ -76,6 +76,10 @@
     .hero h1 {
         letter-spacing: 1px;
     }
+    
+    html {
+        overflow-x: hidden;
+    }
 }
 
 @media (max-width: 360px) {
