@@ -1,11 +1,18 @@
 @media (max-width: 760px) {
-    .max_width {
-        flex-direction: column;
+
+    header .phone p,
+    header .email p {
+        font-size: 12px;
     }
 
-    .max_width .left,
-    .max_width .right {
-        padding: 10px 0;
+    header .right .social_icons i {
+        font-size: 12px;
+        margin: 0 10%;
+    }
+
+    header .max_width {
+        width: 100%;
+        padding: auto 5%;
     }
 }
 
@@ -14,9 +21,14 @@
         flex-direction: column;
     }
 
+    .max_width .left .phone i,
+    .max_width .left .phone p {
+        padding-bottom: 5px;
+    }
+
     .max_width .left,
     .max_width .right {
-        padding: 10px 0;
+        padding: 5px 0;
     }
 
     .hero h1 {
@@ -25,6 +37,10 @@
 
     .hero h6 {
         font-size: 16px;
+    }
+
+    nav #ul {
+        top: 98px;
     }
 }
 
@@ -38,6 +54,11 @@
     nav ul {
         width: 100%;
     }
+
+    header .right i {
+        padding: 0 0.5rem;
+    }
+
 }
 
 @media (max-width: 570px) {
@@ -56,9 +77,9 @@
     nav ul {
         width: 260px;
         height: 100vh;
-        position: absolute;
+        position: fixed;
         right: -260px;
-        top: 0;
+        top: 86px;
         background-color: black;
         flex-direction: column;
         text-align: center;
@@ -75,10 +96,6 @@
 
     .hero h1 {
         letter-spacing: 1px;
-    }
-    
-    html {
-        overflow-x: hidden;
     }
 }
 
